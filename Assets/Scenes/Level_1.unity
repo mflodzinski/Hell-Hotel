@@ -441,7 +441,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  rotationSpeed: 100
+  rotationSpeed: 200
+  cam: {fileID: 1541302372}
 --- !u!136 &1439175053
 CapsuleCollider:
   m_ObjectHideFlags: 0
