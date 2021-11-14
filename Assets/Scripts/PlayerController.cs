@@ -5,9 +5,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 10;
+    public float sprintSpeed = 15;
     public float rotationSpeed = 400;
     public Transform cam;
     public Rigidbody playerBody;
+    public Camera playerCamera;
     public float jumpHeight = 10;
     bool isGrounded;
     bool jumpPressed;
@@ -21,7 +23,16 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Vector3 inputVector = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
-        transform.Translate(inputVector * Time.deltaTime * speed);
+        
+        if (Input.GetButton("Sprint"))
+        {
+            transform.Translate(inputVector * Time.deltaTime * sprintSpeed);
+
+        }
+        else
+        {
+            transform.Translate(inputVector * Time.deltaTime * speed);
+        }
 
         Quaternion previousCamRotation = cam.rotation;
         cam.Rotate(-(Input.GetAxis("Mouse Y") * rotationSpeed * Time.deltaTime), 0, 0, Space.Self);
@@ -32,9 +43,13 @@ public class PlayerController : MonoBehaviour
         jumpPressed = Input.GetButtonDown("Jump") || Input.GetButton("Jump") ;
     }
 
-    void OnCollisionStay()
+    private void OnCollisionStay()
     {
         isGrounded = true;
+    }
+    private void OnCollisionExit()
+    {
+        isGrounded = false;
     }
 
     private void FixedUpdate()

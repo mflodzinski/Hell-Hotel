@@ -111,10 +111,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22efdcd268336624386b511bc7d0c5fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
+  sprintSpeed: 15
   rotationSpeed: 200
   cam: {fileID: 2213790396224878500}
   playerBody: {fileID: 2213790395990658641}
+  playerCamera: {fileID: 2213790396224878499}
   jumpHeight: 4
 --- !u!54 &2213790395990658641
 Rigidbody:
