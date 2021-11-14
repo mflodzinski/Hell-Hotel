@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  sprintSpeed: 15
+  sprintSpeed: 20
   rotationSpeed: 200
   cam: {fileID: 2213790396224878500}
   playerBody: {fileID: 2213790395990658641}
