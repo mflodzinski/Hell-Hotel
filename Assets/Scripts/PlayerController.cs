@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -7,16 +5,23 @@ public class PlayerController : MonoBehaviour
     public float speed = 10;
     public float sprintSpeed = 15;
     public float rotationSpeed = 400;
+
     public Transform cam;
     public Rigidbody playerBody;
     public Camera playerCamera;
+
     public float jumpHeight = 10;
     bool isGrounded;
-    bool jumpPressed;
+    public float gravity = 9.81f;
+
+    GunController gunController;
+    Vector3 velocity;
 
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        gunController = GetComponent<GunController>();
+        gunController.EquipGun(gunController.gun);
     }
 
 
@@ -40,7 +45,18 @@ public class PlayerController : MonoBehaviour
 
         transform.Rotate(0, (Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime), 0, Space.World);
 
-        jumpPressed = Input.GetButtonDown("Jump") || Input.GetButton("Jump") ;
+        if ((Input.GetButtonDown("Jump") || Input.GetButton("Jump")) && isGrounded)
+        {
+            velocity = new Vector3(0, Mathf.Sqrt(2 * jumpHeight * gravity), 0);
+        }
+        velocity.y -= gravity * Time.deltaTime;
+        playerBody.velocity = velocity;
+
+        //Mouse input
+        if (Input.GetMouseButton(0))
+        {
+            gunController.OnTriggerHold();
+        }
     }
 
     private void OnCollisionStay()
@@ -52,12 +68,4 @@ public class PlayerController : MonoBehaviour
         isGrounded = false;
     }
 
-    private void FixedUpdate()
-    {
-        if (jumpPressed && isGrounded)
-        {
-            playerBody.velocity = new Vector3(0, jumpHeight, 0);
-            isGrounded = false;
-        }
-    }
 }
