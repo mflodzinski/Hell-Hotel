@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &171573951 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2213790396224878500, guid: c5fca2870b0fbe442959d3004f89f83e, type: 3}
+  m_PrefabInstance: {fileID: 321016532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &185132721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9621,8 +9626,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2213790395990658636, guid: c5fca2870b0fbe442959d3004f89f83e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c5fca2870b0fbe442959d3004f89f83e, type: 3}
+--- !u!54 &321016533 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 2213790395990658641, guid: c5fca2870b0fbe442959d3004f89f83e, type: 3}
+  m_PrefabInstance: {fileID: 321016532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &324365635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43522,6 +43533,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500223267}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &520561219 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2213790395990658635, guid: c5fca2870b0fbe442959d3004f89f83e, type: 3}
+  m_PrefabInstance: {fileID: 321016532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &520561220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520561219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1334389c36f474b9739394f4db3c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  sprintSpeed: 15
+  rotationSpeed: 400
+  cam: {fileID: 171573951}
+  playerBody: {fileID: 321016533}
+  jumpHeight: 10
+  gravity: 16.66
 --- !u!1 &580974522
 GameObject:
   m_ObjectHideFlags: 0
