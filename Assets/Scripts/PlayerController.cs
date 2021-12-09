@@ -25,11 +25,11 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         Vector3 inputVector = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
         
-        if (Input.GetButton("Sprint"))
+        if (Input.GetButton("Sprint") && isGrounded)
         {
             transform.Translate(inputVector * Time.deltaTime * sprintSpeed);
 
@@ -62,6 +62,7 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionStay()
     {
         isGrounded = true;
+        velocity = Vector3.zero;
     }
     private void OnCollisionExit()
     {

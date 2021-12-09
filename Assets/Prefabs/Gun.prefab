@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8160964148419207456}
   - component: {fileID: 5510202956677136646}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Muzzle Flash 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 897777438468638165}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Axis holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 4821096090757070756}
   - component: {fileID: 9081108654884917513}
   - component: {fileID: 6397256805882312800}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2030897436672157105}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Shell Ejection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,7 +235,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 348715099253848304}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Muzzle Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 168006697374867097}
   - component: {fileID: 7862555810939917172}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Muzzle Flash 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +352,7 @@ GameObject:
   - component: {fileID: 703618030762764790}
   - component: {fileID: 3319042606646607175}
   - component: {fileID: 5140131153978244345}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,7 +433,7 @@ GameObject:
   - component: {fileID: 5524156018510210928}
   - component: {fileID: 9096042789083954559}
   - component: {fileID: 8344872821843096769}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -512,7 +512,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8109625040129032193}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Graphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 4975128600194044363}
   - component: {fileID: 4187647362740059703}
   - component: {fileID: 5815334255244103245}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 9204794271606639893}
   - component: {fileID: 3514792783685241462}
   - component: {fileID: 680658617282723080}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -712,7 +712,7 @@ GameObject:
   - component: {fileID: 5481122400141344137}
   - component: {fileID: 6500415787955538494}
   - component: {fileID: 4024412867674604225}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -792,7 +792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7656310736785949083}
   - component: {fileID: 5008245487232728584}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -886,7 +886,7 @@ GameObject:
   - component: {fileID: 7882591823048632665}
   - component: {fileID: 9081862476845846271}
   - component: {fileID: 9081862476845846264}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -922,7 +922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   graphics: {fileID: 897777438468638165}
   msBetweenShots: 100
-  bulletsPerMag: 30
+  bulletsPerMag: 10
   range: 500
   force: 70
   kickMinMax: {x: 0.05, y: 0.2}

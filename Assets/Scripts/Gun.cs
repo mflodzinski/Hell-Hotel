@@ -71,7 +71,6 @@ public class Gun : MonoBehaviour
 				if (hit.rigidbody != null)
                 {
 					hit.rigidbody.AddForce(transform.forward * force);
-					print("rigidbody");
 				}
             }
 
