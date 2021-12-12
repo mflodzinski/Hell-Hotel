@@ -15,6 +15,12 @@ public class SceneChanger : MonoBehaviour
         Debug.Log("current scene:"+ CurrentSceneIndex);
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (CurrentSceneIndex < NumberOfScenes - 1)
+            SceneManager.LoadScene(CurrentSceneIndex + 1);
+    }
+
     void Update()
     {
         if (Input.GetKey(KeyCode.Alpha0) && CurrentSceneIndex < NumberOfScenes -1)
