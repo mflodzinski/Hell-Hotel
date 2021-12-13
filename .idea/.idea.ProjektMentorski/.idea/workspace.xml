@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="278b4a60-7124-4a48-8fb8-250b4c59d861" name="Default Changelist" comment="" />
+    <list default="true" id="278b4a60-7124-4a48-8fb8-250b4c59d861" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjektMentorski/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjektMentorski/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/biurko.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/biurko.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/drzwi.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/drzwi.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/krzeslo.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/krzeslo.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/lampa.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/lampa.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/lozko.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/lozko.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/maly_stolik.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/maly_stolik.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/obraz_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/obraz_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/obraz_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/obraz_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/przejscie.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/przejscie.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/sciana_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/sciana_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/sciana_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/sciana_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/sofa.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/sofa.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/szafa_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/szafa_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/szafka.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/szafka.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/telewizor.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/telewizor.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniture/obraz_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniture/obraz_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniture/przejscie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniture/przejscie.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniture/sciana_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniture/sciana_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ShowcaseScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ShowcaseScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +31,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="229V6oLUfxgVoYtHmuuhctXxgrN" />
   <component name="ProjectViewState">
@@ -58,6 +85,7 @@
       <updated>1639249616350</updated>
       <workItem from="1639249624841" duration="991000" />
       <workItem from="1639390315806" duration="2000" />
+      <workItem from="1639405890452" duration="1320000" />
     </task>
     <servers />
   </component>
