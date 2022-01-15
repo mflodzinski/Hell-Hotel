@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         gunController = GetComponent<GunController>();
-        //gunController.EquipGun(gunController.gun);
+        gunController.EquipGun(gunController.gun);
     }
 
 
@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
         //Mouse input
         if (Input.GetMouseButton(0))
         {
-//            gunController.OnTriggerHold();
+            gunController.OnTriggerHold();
         }
     }
 

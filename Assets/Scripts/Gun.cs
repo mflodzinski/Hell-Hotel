@@ -8,6 +8,7 @@ public class Gun : MonoBehaviour
 	public int bulletsPerMag;
 	public float range = 100;
 	public float force = 200;
+	public int damage = 1;
 
 	[Header("Recoil")]
 	public Vector2 kickMinMax = new Vector2(.05f, .2f);
@@ -52,7 +53,6 @@ public class Gun : MonoBehaviour
 	}
 	public void Shoot(Transform parent)
 	{
-
 		if (!isReloading && Time.time > nextShotTime && bulletsRemainingInMag > 0)
 		{
 			Instantiate(shell, shellEjector.position, shellEjector.rotation);
@@ -64,9 +64,12 @@ public class Gun : MonoBehaviour
 			if (Physics.Raycast(ray, out hit, range))
             {
 				if (hit.collider.gameObject.CompareTag("Obstacle"))
-                {
+				{
 					Destroy(hit.collider.gameObject);
-                }
+				} else if (hit.collider.gameObject.CompareTag("Enemy")) 
+				{
+					hit.collider.gameObject.GetComponent<EnemyController>().Damage(damage);
+				}
 
 				if (hit.rigidbody != null)
                 {
