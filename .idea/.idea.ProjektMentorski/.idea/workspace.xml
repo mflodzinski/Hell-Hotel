@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278b4a60-7124-4a48-8fb8-250b4c59d861" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HoverScaler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HoverScaler.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjektMentorski/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjektMentorski/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/biurko.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/biurko.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/drzwi.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/drzwi.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/krzeslo.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/krzeslo.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/lampa.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/lampa.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/lozko.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/lozko.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/maly_stolik.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/maly_stolik.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/obraz_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/obraz_1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/obraz_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/obraz_2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/przejscie.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/przejscie.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/sciana_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/sciana_1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/sciana_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/sciana_2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/sofa.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/sofa.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/szafa_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/szafa_2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/szafka.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/szafka.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Furniture/telewizor.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Furniture/telewizor.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniture/obraz_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniture/obraz_1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniture/przejscie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniture/przejscie.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniture/sciana_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniture/sciana_1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ShowcaseScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ShowcaseScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +15,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA496B8C-9345-4B2F-9B99-24292C19379F/ff/50c47d08/Gradient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA496B8C-9345-4B2F-9B99-24292C19379F/42/4df05122/GradientColorKey.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/test.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="229V6oLUfxgVoYtHmuuhctXxgrN" />
@@ -86,6 +74,7 @@
       <workItem from="1639249624841" duration="991000" />
       <workItem from="1639390315806" duration="2000" />
       <workItem from="1639405890452" duration="1320000" />
+      <workItem from="1642436983976" duration="2319000" />
     </task>
     <servers />
   </component>
@@ -94,6 +83,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
