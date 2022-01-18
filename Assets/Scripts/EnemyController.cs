@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
-    private Transform target;
+    public Transform target;
     private NavMeshAgent agent;
     [SerializeField]
     private Material dmgdMaterial;
