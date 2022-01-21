@@ -30,11 +30,22 @@ public class Gun : MonoBehaviour
 	float recoilAngle;
 	float recoilRotSmoothDampVelocity;
 
+	AudioSource[] audioSources;
+	public AudioClip shootingClip;
+
 	private void Start()
 	{
 		muzzleFlash = GetComponent<Muzzleflash>();
 		bulletsRemainingInMag = bulletsPerMag;
+		audioSources = new AudioSource[5];
+		for (int i = 0; i < 5; i++)
+		{
+			GameObject newMusicSource = new GameObject("Music source " + (i + 1));
+			audioSources[i] = newMusicSource.AddComponent<AudioSource>();
+			audioSources[i].clip = shootingClip;
+		}
 	}
+
 
 	private void LateUpdate()
 	{
@@ -81,11 +92,26 @@ public class Gun : MonoBehaviour
 			graphics.localPosition -= Vector3.forward * Random.Range(kickMinMax.x, kickMinMax.y);
 			recoilAngle += Random.Range(recoilMinMax.x, recoilMinMax.y);
 			recoilAngle = Mathf.Clamp(recoilAngle, 0, 30);
+			AudioSource audioS = FindAvailableAudioSource();
+			if (audioS != null)
+            {
+				audioS.Play();
+			}
 		}
 	}
 
-
-    public void Reload()
+	AudioSource FindAvailableAudioSource()
+	{
+		foreach (AudioSource audioSource in audioSources)
+		{
+			if (!audioSource.isPlaying)
+			{
+				return audioSource;
+			}
+		}
+		return null;
+	}
+	public void Reload()
 	{
 		if (!isReloading && bulletsRemainingInMag != bulletsPerMag)
 		{

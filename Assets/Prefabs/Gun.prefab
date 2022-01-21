@@ -925,6 +925,7 @@ MonoBehaviour:
   bulletsPerMag: 10
   range: 500
   force: 70
+  damage: 1
   kickMinMax: {x: 0.05, y: 0.2}
   recoilMinMax: {x: 3, y: 5}
   recoilMoveSettleTime: 0.1
@@ -932,6 +933,7 @@ MonoBehaviour:
   shell: {fileID: 5245149485617553195, guid: bdf409bafe2d8194e8b5f5cbd08d09b6, type: 3}
   shellEjector: {fileID: 2030897436672157105}
   reloadTime: 0.3
+  shootingClip: {fileID: 8300000, guid: 57eac538926d0c54aaa43fb4a8df67f3, type: 3}
 --- !u!114 &9081862476845846264
 MonoBehaviour:
   m_ObjectHideFlags: 0

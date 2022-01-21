@@ -14,6 +14,7 @@ public class GunController : MonoBehaviour
 		equippedGun.transform.parent = weaponHolder;
 	}
 
+
 	public void OnTriggerHold()
 	{
 		if (equippedGun != null)
