@@ -7,7 +7,7 @@ public class Shell : MonoBehaviour
     public float forceMin;
     public float forceMax;
 
-    float lifetime = 4;
+    float lifetime = 2;
     float fadetime = 2;
 
     void Start()
