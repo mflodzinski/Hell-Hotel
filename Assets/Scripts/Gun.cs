@@ -43,6 +43,7 @@ public class Gun : MonoBehaviour
 			GameObject newMusicSource = new GameObject("Music source " + (i + 1));
 			audioSources[i] = newMusicSource.AddComponent<AudioSource>();
 			audioSources[i].clip = shootingClip;
+			audioSources[i].volume = 0.2f;
 		}
 	}
 
