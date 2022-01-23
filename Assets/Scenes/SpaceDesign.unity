@@ -50603,7 +50603,8 @@ PrefabInstance:
       propertyPath: m_Cameras.Array.data[0]
       value: 
       objectReference: {fileID: 210644428}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1094193764, guid: fbbd03bbb82e6134883c1fb38f7fa06c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fbbd03bbb82e6134883c1fb38f7fa06c, type: 3}
 --- !u!4 &550359734 stripped
 Transform:

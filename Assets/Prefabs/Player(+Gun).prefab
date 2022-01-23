@@ -224,7 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkAcceleration: 10
   sprintAcceleration: 15
-  rotationSpeed: 300
+  rotationSpeed: 450
   maxWalkingSpeed: 4
   maxSprintingSpeed: 7
   cam: {fileID: 2261406107969100196}
