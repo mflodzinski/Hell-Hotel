@@ -14687,8 +14687,20 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2261406107735154764, guid: fbbd03bbb82e6134883c1fb38f7fa06c, type: 3}
+      propertyPath: jumpHeight
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2261406107735154764, guid: fbbd03bbb82e6134883c1fb38f7fa06c, type: 3}
       propertyPath: rotationSpeed
       value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2261406107735154764, guid: fbbd03bbb82e6134883c1fb38f7fa06c, type: 3}
+      propertyPath: maxWalkingSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2261406107735154764, guid: fbbd03bbb82e6134883c1fb38f7fa06c, type: 3}
+      propertyPath: maxSprintingSpeed
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2261406107735154768, guid: fbbd03bbb82e6134883c1fb38f7fa06c, type: 3}
       propertyPath: m_RootOrder
