@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     bool isGrounded;
     public float gravity = 9.81f;
     [SerializeField]
-    private float coefficient = 10;
+    private float frictionCoefficient = 0.1f;
 
     GunController gunController;
 
@@ -67,6 +67,8 @@ public class PlayerController : MonoBehaviour
         }
         
         playerBody.AddRelativeForce(new Vector3(0, -gravity, 0), ForceMode.Acceleration);
+        //Fake friction
+        playerBody.AddForce(-new Vector3(playerBody.velocity.x, 0, playerBody.velocity.z) * frictionCoefficient, ForceMode.VelocityChange);
     }
 
     private void OnCollisionStay()

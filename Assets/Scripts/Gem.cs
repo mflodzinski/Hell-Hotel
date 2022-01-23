@@ -8,10 +8,6 @@ public class Gem : MonoBehaviour
     private float distance = 2f;
     private bool allGemsCollected;
     private int collectedGems;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
@@ -21,11 +17,6 @@ public class Gem : MonoBehaviour
             {
                 gem.gameObject.SetActive(false);
                 collectedGems += 1;
-            }
-            if (collectedGems == gems.Length)
-            {
-                allGemsCollected = true;
-                print("collected");
             }
         }
     }
