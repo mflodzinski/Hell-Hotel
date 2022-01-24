@@ -12,7 +12,6 @@ public class PlayerController : MonoBehaviour
 
     public Transform cam;
     public Rigidbody playerBody;
-    public Camera playerCamera;
 
     public float jumpHeight = 10;
     bool isGrounded;

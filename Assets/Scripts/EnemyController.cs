@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -56,11 +55,5 @@ public class EnemyController : MonoBehaviour
         gameObject.GetComponent<MeshRenderer>().material = dmgdMaterial;
         yield return new WaitForSeconds(.1f);
         gameObject.GetComponent<MeshRenderer>().material = temp;
-    }
-
-    private void OnDrawGizmosSelected() 
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, lookRadius);
     }
 }

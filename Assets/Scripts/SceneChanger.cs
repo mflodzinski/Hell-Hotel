@@ -26,6 +26,5 @@ public class SceneChanger : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Alpha9) && CurrentSceneIndex > 0)
             SceneManager.LoadScene(CurrentSceneIndex - 1);
-
     }
 }

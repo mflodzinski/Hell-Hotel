@@ -14,18 +14,11 @@ public class GunController : MonoBehaviour
 		equippedGun.transform.parent = weaponHolder;
 	}
 
-
 	public void OnTriggerHold()
 	{
 		if (equippedGun != null)
 		{
 			equippedGun.Shoot(cameraT);
 		}
-	}
-
-	private void OnDrawGizmos()
-	{
-		Gizmos.DrawLine(cameraT.position, cameraT.forward * 100);
-		Gizmos.color = Color.red;
 	}
 }

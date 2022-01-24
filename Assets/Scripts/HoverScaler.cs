@@ -18,7 +18,6 @@ namespace UI
             startScale = transform.localScale;
         }
 
-
         public void OnPointerEnter(PointerEventData eventData)
         {
             transform.DOScale(toScaleMultiply * startScale, duration).SetEase(easeType);

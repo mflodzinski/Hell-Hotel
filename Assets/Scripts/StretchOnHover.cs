@@ -9,7 +9,6 @@ public class StretchOnHover : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     private Vector2 initialSize;
     private RectTransform rectTrans;
 
-    private Vector2 tempMover;
     private float progress = 0;
 
     private Tween Enter;
