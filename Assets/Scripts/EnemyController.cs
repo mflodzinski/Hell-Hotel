@@ -11,6 +11,9 @@ public class EnemyController : MonoBehaviour
     public float lookRadius = 10f;
     private int health = 2;
     private bool attackingRn;
+    private bool startFollowing;
+    private bool isFollowing = false;
+
     private void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
@@ -20,9 +23,24 @@ public class EnemyController : MonoBehaviour
     {
         float distance = Vector3.Distance(target.position, transform.position);
 
-        if (distance <= lookRadius) 
+        if (distance <= lookRadius)
         {
+            if (!isFollowing)
+                startFollowing = true;
+
+            isFollowing = true;
+
             agent.SetDestination(target.position);
+            
+            if (startFollowing)
+            {
+                var audioSource = GetComponent<AudioSource>();
+                
+                if (audioSource)
+                    audioSource.Play();
+
+                startFollowing = false;
+            }
 
             if (distance <= agent.stoppingDistance && !attackingRn) 
             {
@@ -30,6 +48,10 @@ public class EnemyController : MonoBehaviour
                 //Attack
                 StartCoroutine(Attack());
             }
+        }
+        else
+        {
+            isFollowing = false;
         }
     }
 
