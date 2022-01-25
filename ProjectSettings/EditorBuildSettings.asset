@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: d5b83cc005f678042a0fe58398c2418c
   - enabled: 1
-    path: Assets/Scenes/ShowcaseScene.unity
-    guid: 4be2b4995725c0d4386df738e1f302fa
-  - enabled: 1
     path: Assets/Scenes/SpaceDesign.unity
     guid: 87875f4acbbe00744a5f71b80bc2dc25
+  - enabled: 1
+    path: Assets/Scenes/ShowcaseScene.unity
+    guid: 4be2b4995725c0d4386df738e1f302fa
   - enabled: 0
     path: Assets/Scenes/Level_1.unity
     guid: c63d876c781d04a4880355ef6565ecae
