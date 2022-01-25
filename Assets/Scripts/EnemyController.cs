@@ -51,9 +51,9 @@ public class EnemyController : MonoBehaviour
 
     private IEnumerator ChangeMaterial() 
     {
-        var temp = gameObject.GetComponent<MeshRenderer>().material;
-        gameObject.GetComponent<MeshRenderer>().material = dmgdMaterial;
+        var temp = gameObject.GetComponentInChildren<MeshRenderer>().material;
+        gameObject.GetComponentInChildren<MeshRenderer>().material = dmgdMaterial;
         yield return new WaitForSeconds(.1f);
-        gameObject.GetComponent<MeshRenderer>().material = temp;
+        gameObject.GetComponentInChildren<MeshRenderer>().material = temp;
     }
 }
