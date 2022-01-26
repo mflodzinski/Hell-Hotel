@@ -6592,9 +6592,9 @@ RectTransform:
   m_Father: {fileID: 864827409}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -464, y: 310}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 270, y: -56}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &456250214
@@ -9523,9 +9523,9 @@ RectTransform:
   m_Father: {fileID: 864827409}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -464, y: 310}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 270, y: -56}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &634183234
@@ -33204,6 +33204,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4372595148338646980, guid: 50d73d00d848a824285263e72f35cf7d, type: 3}
+      propertyPath: difficultyIncreaseDelay
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 4372595148338646981, guid: 50d73d00d848a824285263e72f35cf7d, type: 3}
       propertyPath: m_Name
       value: EnemySpawner
