@@ -7,9 +7,21 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private GameObject enemy;
     private float maxSpawnDistance = 100;
+    private float delayTimeInSeconds;
+
+    [Header("Difficulty Level")]
+    [SerializeField]
+    private float delayTimeInSecondsStart = 3;
+    [SerializeField]
+    private float delayTimeInSecondsEnd = 2;
+    [SerializeField]
+    private float difficultyIncreaseDelay = .2f;
+
     private void Start()
     {
         StartCoroutine(Spawn());
+        delayTimeInSeconds = delayTimeInSecondsStart;
+        StartCoroutine(increaseDifficulty());
     }
 
     private IEnumerator Spawn() 
@@ -39,7 +51,7 @@ public class EnemySpawner : MonoBehaviour
                 break;
             }
             enAgent.CalculatePath(enCtrlr.target.position, path);
-            if (path.status != NavMeshPathStatus.PathComplete || CalculatePathLength(enCtrlr.target.transform.position, path) > maxSpawnDistance)
+            if (path.status != NavMeshPathStatus.PathComplete || CalculatePathLength(enCtrlr.target.transform.position, path) > maxSpawnDistance || Vector3.Distance(enCtrlr.target.transform.position, spawnedEnemy.transform.position) < 5)
             {
                 Destroy(spawnedEnemy);
                 //if (path.status != NavMeshPathStatus.PathComplete) spawnedEnemy.name = "Path"; ;
@@ -52,8 +64,14 @@ public class EnemySpawner : MonoBehaviour
             }
         }
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(delayTimeInSeconds);
         StartCoroutine(Spawn());
+    }
+    private IEnumerator increaseDifficulty() 
+    {
+        yield return new WaitForSeconds(difficultyIncreaseDelay);
+        delayTimeInSeconds -= .1f;
+        StartCoroutine(increaseDifficulty());
     }
 
     float CalculatePathLength(Vector3 targetPosition, NavMeshPath path)
