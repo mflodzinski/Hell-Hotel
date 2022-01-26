@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278b4a60-7124-4a48-8fb8-250b4c59d861" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MenuController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MenuController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GotoScene.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GotoScene.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjektMentorski/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjektMentorski/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +25,9 @@
       <option value="$PROJECT_DIR$/Assets/test.cs" />
       <option value="$PROJECT_DIR$/Assets/Editor/ScenePicker.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GotoScene.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/MenuController.cs" />
       <option value="$PROJECT_DIR$/Assets/TMP_Manipulator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneChanger.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="229V6oLUfxgVoYtHmuuhctXxgrN" />
@@ -87,6 +81,7 @@
       <workItem from="1639405890452" duration="1320000" />
       <workItem from="1642436983976" duration="2319000" />
       <workItem from="1642962976006" duration="2803000" />
+      <workItem from="1643214144091" duration="996000" />
     </task>
     <servers />
   </component>

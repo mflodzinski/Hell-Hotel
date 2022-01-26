@@ -15,6 +15,7 @@ public class SceneChanger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //Debug.Log("trigger");
         if (CurrentSceneIndex < NumberOfScenes - 1)
             SceneManager.LoadScene(CurrentSceneIndex + 1);
     }
